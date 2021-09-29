@@ -2,7 +2,7 @@
     <img src="https://smftricks.com/logos/logo.png">
  </p>
   <p align="center">
-    <img src="https://custom.simplemachines.org/themes/index.php?action=download;lemma=2846;id=17735;image">
+    <img src="https://custom.simplemachines.org/index.php?action=download;theme=2846;attach=248659;image">
  </p>
  
  ## Flexive
