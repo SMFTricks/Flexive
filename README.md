@@ -2,7 +2,7 @@
 
 ![Theme Preview](https://custom.simplemachines.org/index.php?action=download;theme=2846;attach=248659;image)
  
-# BlueShame
+# Flexive
 ![License](https://img.shields.io/badge/License-MIT-a05a3f) ![SMF 2.0](https://img.shields.io/badge/SMF-2.0-996ee1) ![Responsive](https://img.shields.io/badge/Responsive-Yes-6e97e1)
 
 * Developed by [Diego Andrés](https://github.com/DiegoAndresCortes)
