@@ -97,7 +97,7 @@ function template_html_above()
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<link rel="stylesheet" href="', $settings['theme_url'], '/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="', $settings['theme_url'], '/css/responsive.css" type="text/css" />
-	<link rel="stylesheet" href="', $settings['theme_url'], '/css/font-awesome.min.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/index', $context['theme_variant'], '.css?fin20" />';
 
 	// Some browsers need an extra stylesheet due to bugs/compatibility issues.
@@ -276,19 +276,19 @@ function template_body_below()
 
 					if(!empty($settings['st_facebook_username']))
 						echo '
-							<li><a class="social_icon facebook" href="https://facebook.com/', $settings['st_facebook_username'] , '" target="_blank" rel="noopener"><span class="fa fa-facebook"></span></a></li>';
+							<li><a class="social_icon facebook" href="https://facebook.com/', $settings['st_facebook_username'] , '" target="_blank" rel="noopener"><span class="fab fa-facebook"></span></a></li>';
 
 					if(!empty($settings['st_twitter_username']))
 						echo '
-							<li><a class="social_icon twitter" href="https://twitter.com/', $settings['st_twitter_username'] , '" target="_blank" rel="noopener"><span class="fa fa-twitter"></span></a></li>';
+							<li><a class="social_icon twitter" href="https://twitter.com/', $settings['st_twitter_username'] , '" target="_blank" rel="noopener"><span class="fab fa-twitter"></span></a></li>';
 
 					if(!empty($settings['st_youtube_username']))
 						echo '
-							<li><a class="social_icon youtube" href="https://youtube.com/user/', $settings['st_youtube_username'] , '" target="_blank" rel="noopener"><span class="fa fa-youtube"></span></a></li>';
+							<li><a class="social_icon youtube" href="https://youtube.com/user/', $settings['st_youtube_username'] , '" target="_blank" rel="noopener"><span class="fab fa-youtube"></span></a></li>';
 
 					if(!empty($settings['st_instagram_username']))
 						echo '
-							<li><a class="social_icon instagram" href="https://instagram.com/', $settings['st_instagram_username'] , '" target="_blank" rel="noopener"><span class="fa fa-instagram"></span></a></li>';
+							<li><a class="social_icon instagram" href="https://instagram.com/', $settings['st_instagram_username'] , '" target="_blank" rel="noopener"><span class="fab fa-instagram"></span></a></li>';
 
 						echo '
 							<li><a class="social_icon rss" href="', empty($settings['st_rss_url']) ? '' . $scripturl . '?action=.xml;type=rss' : '' . $settings['st_rss_url'] . '', '" target="_blank" rel="noopener"><span class="fa fa-rss"></span></a></li>
@@ -364,7 +364,7 @@ function theme_linktree($force_show = false, $index=false)
 
 // Theme copyright, please DO NOT REMOVE THIS!
 function flexive_copy() {
-	$flexive = 'Theme by <a href="https://smftricks.com" target="_blank" rel="noopener">SMF Tricks</a>';
+	$flexive = 'Theme by <a href="https://smftricks.com">SMF Tricks</a>';
 
 	return $flexive;
 }
